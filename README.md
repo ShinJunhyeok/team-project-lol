@@ -66,3 +66,147 @@
 - 각 포지션 선택 시 그 포지션에 해당하는 글만 보이도록 구현함.
 - 각 티어 선택 시 그 티어에 해당하는 글만 보이도록 구현함.
 - 문의하기 페이지에서 문의 유형을 선택할 시 그 유형에 맞는 문제 선택 박스가 나오도록 구현함.
+
+## 메뉴트리
+```bash
+├── README.md
+├── index.html
+├── package.json
+├── public
+│   └── images
+│       ├── common
+│       └── content
+│           ├── champions
+│           ├── community
+│           ├── esports
+│           ├── login
+│           ├── main
+│           ├── notice
+│           ├── skills
+│           ├── skins
+│           └── store
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   └── api
+│   │       ├── Champion.js
+│   │       ├── ChampionsDetail.js
+│   │       ├── Esport.js
+│   │       ├── GameVideo.js
+│   │       ├── Mainpagedata.js
+│   │       ├── Notice.js
+│   │       ├── communityData.js
+│   │       └── skin_store.js
+│   ├── components
+│   │   ├── Layout.jsx
+│   │   ├── cart
+│   │   │   ├── CartEmpty.jsx
+│   │   │   ├── CartItem.jsx
+│   │   │   ├── CartList.jsx
+│   │   │   └── CartStyle.js
+│   │   ├── champions
+│   │   │   ├── ChampionDetail.jsx
+│   │   │   ├── ChampionItem.jsx
+│   │   │   └── ChampionList.jsx
+│   │   ├── community
+│   │   │   ├── CommunityAdd.jsx
+│   │   │   ├── CommunityEdit.jsx
+│   │   │   ├── CommunityItem.jsx
+│   │   │   ├── CommunityList.jsx
+│   │   │   └── CommunitySearch.jsx
+│   │   ├── esports
+│   │   │   ├── EsportItem.jsx
+│   │   │   └── EsportList.jsx
+│   │   ├── footer
+│   │   │   ├── Footer.jsx
+│   │   │   ├── FooterStyle.js
+│   │   │   ├── footerList
+│   │   │   │   ├── FooterItem.jsx
+│   │   │   │   └── FooterList.jsx
+│   │   │   └── footerSite
+│   │   │       ├── FooterSite.jsx
+│   │   │       └── SiteItem.jsx
+│   │   ├── header
+│   │   │   ├── Header.jsx
+│   │   │   ├── HeaderStyle.js
+│   │   │   └── Nav.jsx
+│   │   ├── howtoplay
+│   │   │   ├── ChooseLine.jsx
+│   │   │   ├── Enhance.jsx
+│   │   │   ├── GameInfo.jsx
+│   │   │   ├── GamePlay.jsx
+│   │   │   ├── GameUpdate.jsx
+│   │   │   └── UseSkills.jsx
+│   │   ├── main
+│   │   │   ├── ArenaSectioncontainer.jsx
+│   │   │   ├── Bottom.jsx
+│   │   │   ├── ChampionSectionList.jsx
+│   │   │   ├── MapSection.jsx
+│   │   │   ├── MoreSection.jsx
+│   │   │   ├── NewsSectioncontainer.jsx
+│   │   │   └── TopVideo.jsx
+│   │   ├── notice
+│   │   │   ├── NoticeItem.jsx
+│   │   │   └── NoticeList.jsx
+│   │   ├── pagination
+│   │   │   ├── Pagination.jsx
+│   │   │   └── PaginationStyle.js
+│   │   ├── requests
+│   │   │   ├── RequestForm.jsx
+│   │   │   ├── RequestOptions.jsx
+│   │   │   └── RequestVisual.jsx
+│   │   └── skinstore
+│   │       ├── SkinDetail.jsx
+│   │       ├── SkinItem.jsx
+│   │       ├── SkinList.jsx
+│   │       ├── SkinStoreStyle.js
+│   │       └── SkinStoreTop.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── pages
+│   │   ├── Cart
+│   │   │   ├── StoreCart.jsx
+│   │   │   └── StoreCartStyle.js
+│   │   ├── champions
+│   │   │   ├── Champion.jsx
+│   │   │   └── championstyle.js
+│   │   ├── community
+│   │   │   ├── Community.jsx
+│   │   │   └── CommunityStyle.js
+│   │   ├── esports
+│   │   │   ├── Esport.jsx
+│   │   │   └── esportstyle.js
+│   │   ├── howToPlay
+│   │   │   ├── HowToPlay.jsx
+│   │   │   └── howtoplayStyle.js
+│   │   ├── login
+│   │   │   ├── Join.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── LoginStyle.js
+│   │   │   ├── Logout.jsx
+│   │   │   └── RealLogout.jsx
+│   │   ├── main
+│   │   │   ├── Mainpage.jsx
+│   │   │   └── mainpageStyle.js
+│   │   ├── notice
+│   │   │   ├── Notice.jsx
+│   │   │   └── noticeStyle.js
+│   │   ├── requests
+│   │   │   ├── Requests.jsx
+│   │   │   └── requestsStyle.js
+│   │   └── skinstore
+│   │       ├── SkinStore.jsx
+│   │       └── skinstore_style.js
+│   ├── store
+│   │   ├── index.jsx
+│   │   └── modules
+│   │       ├── authSlice.js
+│   │       ├── cartSlice.js
+│   │       ├── communitySlice.js
+│   │       └── paginationSlice.js
+│   └── styled
+│       └── GlobalStyle.js
+├── vite.config.js
+└── yarn.lock
+```
